@@ -936,6 +936,26 @@
 		-o-box-shadow: 0 0 20px #ff6600 inset;
 	}
 
+	div#yellowBox2 button.search_button 
+	{
+		color:#001c91;
+		font-size: 30px;
+
+		width: 140px;
+		height: 70px;
+		margin: 0px 0px 0px 0px;
+		
+        border-top: 2px solid red;
+        border-right: 2px solid red;
+        border-bottom: 2px solid red;
+        border-left: 2px solid red;
+        border-radius: 10px;
+		
+        background-color: transparent;
+		
+	}
+	
+
 }
 
 @media handheld and (orientation:portrait), (max-width:768px) {
@@ -949,7 +969,7 @@
 	{
 		width: 281px;
 		height: 99px;
-		background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/200653/logo.png') no-repeat left top;
+		background: url('./images/logo_pokedex.png') no-repeat left top;
 		z-index: 1;
 
 		position: absolute;
