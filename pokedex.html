@@ -13,7 +13,7 @@
     <!-- 
     <h1>Pokedex LaunchX</h1>
     <img src="./images/green_screen.gif" alt="Pokemon" id="pokeImg" width="150px"> -->
-    <input type="text" placeholder="pikachu" id="pokeName" name="pokeName">
+    
     
     
 
@@ -43,7 +43,7 @@
               <div id="buttontopPicture2"></div>
             </div>
             <div id="picture">
-              <img src="./images/pokeball_500x648.gif" alt="Pokemon" id="pokeImg" height="150" width=auto/>
+              <img id="pokeImg" src="./images/pokeball_500x648.gif" alt="Pokemon" height="150" width=auto/>
             </div>
             <div id="buttonbottomPicture"></div>
             <div id="speakers">
@@ -76,7 +76,7 @@
         </div>
         <div id="right">
           <div id="stats">
-            <strong>Name:</strong> Psyduck<br/>
+            <p><strong>Name:</strong> Psyduck</p>
             <strong>Type:</strong> Water<br/>
             <strong>Height:</strong> 2'072''<br/>
             <strong>Weight:</strong> 43.2 lbs.<br/><br/>
@@ -101,9 +101,11 @@
           <div id="miniButtonGlass5"></div>
           <div id="barbutton3"></div>
           <div id="barbutton4"></div>
-          <div id="yellowBox1"></div>
+          <div id="yellowBox1">
+            <input id="pokeName" class="input_box" type="text" placeholder="Pokemon Name" name="pokeName" autofocus>
+          </div>
           <div id="yellowBox2">
-            <button class="search_button" onclick="fetchPokemon()">Buscar</button>
+            <button id="searchbtn" class="search_button" onclick="fetchPokemon()">Buscar</button>
           </div>
           <div id="bg_curve1_right"></div>
           <div id="bg_curve2_right"></div>

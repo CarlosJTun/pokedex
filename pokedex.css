@@ -914,6 +914,26 @@
 		-o-box-shadow: 0 0 20px #ff6600 inset;
 	}
 
+	div#yellowBox1 input.input_box
+	{
+		color:#001c91;
+		font-size: 18px;
+		caret-color: green;
+		text-align: center;
+
+		width: 140px;
+		height: 70px;
+		margin: 0px 0px 0px 0px;
+		
+        border-top: 0px solid red;
+        border-right: 0px solid red;
+        border-bottom: 0px solid red;
+        border-left: 0px solid red;
+        border-radius: 15px;
+		
+        background-color: transparent;
+	}
+
 	div#yellowBox2
 	{
 		width: 140px;
@@ -949,7 +969,7 @@
         border-right: 2px solid red;
         border-bottom: 2px solid red;
         border-left: 2px solid red;
-        border-radius: 10px;
+        border-radius: 15px;
 		
         background-color: transparent;
 		

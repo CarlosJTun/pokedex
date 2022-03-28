@@ -25,3 +25,19 @@ const pokeImage = (url) => {
     const pokePhoto = document.getElementById("pokeImg");
     pokePhoto.src = url;
 }
+
+
+
+// Get the input field
+var input = document.getElementById("pokeName");
+
+// Execute a function when the user releases a key on the keyboard
+input.addEventListener("keyup", function(keyboardEvent) {
+  // Number 13 is the "Enter" key on the keyboard
+  if (keyboardEvent.keyCode === 13) {
+    // Cancel the default action, if needed
+    keyboardEvent.preventDefault();
+    // Trigger the button element with a click
+    document.getElementById("searchbtn").click();
+  }
+});
