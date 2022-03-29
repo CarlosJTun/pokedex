@@ -43,7 +43,7 @@ const pokeData = (dataName, dataType, dataHeight, dataWeight, dataMove1, dataMov
     document.getElementById("setName").innerHTML = "<strong>Name:</strong> " + dataName;
     document.getElementById("setType").innerHTML = "<strong>Type:</strong> " + dataType;
     document.getElementById("setHeight").innerHTML = "<strong>Height:</strong>  " + dataHeight + "m";
-    document.getElementById("setWeight").innerHTML = "<strong>Height:</strong>  " + dataWeight + "kg";
+    document.getElementById("setWeight").innerHTML = "<strong>Weight:</strong>  " + dataWeight + "kg";
     document.getElementById("setMoves").innerHTML = dataMove1 + ", " + dataMove2 + " & " + dataMove3 + ".";
 }
 
